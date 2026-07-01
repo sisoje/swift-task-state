@@ -4,11 +4,8 @@ import PackageDescription
 let package = Package(
     name: "TaskState",
     platforms: [
-        .iOS(.v26),
-        .macOS(.v26),
-        .tvOS(.v26),
-        .watchOS(.v26),
-        .visionOS(.v26),
+        .macOS(.v26), .iOS(.v26), .tvOS(.v26), .watchOS(.v26),
+        .visionOS(.v26), .macCatalyst(.v26),
     ],
     products: [
         .library(name: "TaskState", targets: ["TaskState"]),

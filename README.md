@@ -70,8 +70,8 @@ mutating it shouldn't re-render. Drive UI from separate `@State` the task writes
 
 ## Requirements
 
-- Swift 6.0+
-- iOS 17 / macOS 14 / tvOS 17 / watchOS 10 (requires Observation)
+- Swift 6.3+
+- iOS 26 / macOS 26 / tvOS 26 / watchOS 26 / visionOS 26 / Mac Catalyst 26
 
 ## Install
 
