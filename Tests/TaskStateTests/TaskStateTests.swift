@@ -29,7 +29,8 @@ final class TaskStorageTests: XCTestCase {
             }
         }
 
-        var storage: TaskStorage<Void, Never>? = TaskStorage(task)
+        var storage: TaskStorage<Void, Never>? = TaskStorage()
+        storage?.task = task
         await fulfillment(of: [started], timeout: 1)
 
         storage = nil // deinit → cancellation
